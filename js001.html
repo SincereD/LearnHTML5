@@ -1,0 +1,46 @@
+<html xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		name = "Name"
+		helloWord = "helloWord"
+		document.write (name);
+		document.write ("<br>");
+		document.write (helloWord);
+		document.write ("<br>");
+	</script>
+
+	<script type="text/javascript">
+		var c=document.getElementById("myCanvas");
+		var cxt=c.getContext("2d");
+		cxt.fillStyle="#FF0000";
+		cxt.fillRect(0,0,150,75);
+	</script>
+
+	<canvas id="myCanvas1" width="200" height="100" style="border:1px solid #c3c3c3;">
+		Your browser does not support the canvas element.
+	</canvas>
+
+	<script type="text/javascript">
+
+		var c=document.getElementById("myCanvas1");
+		var cxt=c.getContext("2d");
+		var grd=cxt.createLinearGradient(0,0,175,50);
+		grd.addColorStop(0,"#FF0000");
+		grd.addColorStop(1,"#00FF00");
+		cxt.fillStyle=grd;
+		cxt.fillRect(0,0,175,50);
+
+	</script>
+
+
+	<svg:svg width="300" height="100" version="1.1" >
+	<svg:circle cx="100" cy="50" r="40" stroke="black"
+	stroke-width="2" fill="red" />
+	</svg:svg>
+
+
+</body>
+</html>
