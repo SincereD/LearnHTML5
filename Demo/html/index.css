@@ -1,0 +1,43 @@
+
+header{
+    margin: 0;
+    height: 64px;
+    background-color: brown;
+}
+
+#topLeftBtn{
+    color: #0087ff;
+    font: 18px;
+    text-align: center;
+    left: 0;
+    top: 20px;
+    width: 44px;
+    height: 44px;
+}
+
+#topRightBtn{
+    color: #0087ff;
+    font: 18px;
+    float: right;
+    text-align: center;
+    right: 0px;
+    top: 20px;
+    width: 44px;
+    height: 44px;
+}
+
+#topTitle{
+    color: #0087ff;
+    font: 18px;
+    text-align: center;
+    height: 64px;
+    top: 0;
+}
+
+p{
+ color: #0087ff;
+}
+
+header{
+    color:#0087ff;
+}

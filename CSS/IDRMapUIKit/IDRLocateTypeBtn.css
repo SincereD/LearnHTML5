@@ -1,0 +1,10 @@
+#btn{
+	width: 35px;
+	height: 35px; 
+	background-color: white;
+	background-size: cover;
+ 	background-image: url(././image/定位_正常.png); 
+	position: absolute; 
+	left: 0;
+	top: 0;
+}
